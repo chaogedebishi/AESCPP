@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/AESCPP/main.cpp
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+getopt.h
+-
+string.h
+-
+time.h
+-
+iostream
+-
+
